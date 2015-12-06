@@ -10,6 +10,57 @@ The app uses separate Thread with a loop to send data continuously after every 1
 
 Which key/button would send will send which byte can be seen in the table:
 
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#999;border:none;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#999;color:#444;background-color:#F7FDFA;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#999;color:#fff;background-color:#26ADE4;}
+.tg .tg-2dkq{background-color:#3166ff;color:#ffffff;vertical-align:top}
+.tg .tg-ufe5{background-color:#34cdf9;vertical-align:top}
+.tg .tg-to9j{font-family:Georgia, serif !important;;background-color:#3166ff;color:#ffffff;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-2dkq">Key</th>
+    <th class="tg-ufe5"> 1</th>
+    <th class="tg-ufe5">2</th>
+    <th class="tg-ufe5">3</th>
+    <th class="tg-ufe5">4</th>
+    <th class="tg-ufe5">5</th>
+    <th class="tg-ufe5">6</th>
+    <th class="tg-ufe5">7</th>
+  </tr>
+  <tr>
+    <td class="tg-2dkq">Data(char)</td>
+    <td class="tg-ufe5">“1”</td>
+    <td class="tg-ufe5">“2”</td>
+    <td class="tg-ufe5">“3”</td>
+    <td class="tg-ufe5">“4”</td>
+    <td class="tg-ufe5">“5”</td>
+    <td class="tg-ufe5">“6”</td>
+    <td class="tg-ufe5">“7”</td>
+  </tr>
+  <tr>
+    <td class="tg-2dkq">Data(int )</td>
+    <td class="tg-ufe5">48</td>
+    <td class="tg-ufe5">49</td>
+    <td class="tg-ufe5">50</td>
+    <td class="tg-ufe5">51</td>
+    <td class="tg-ufe5">52</td>
+    <td class="tg-ufe5">53</td>
+    <td class="tg-ufe5">54</td>
+  </tr>
+  <tr>
+    <td class="tg-to9j">Data(byte)</td>
+    <td class="tg-ufe5">48</td>
+    <td class="tg-ufe5">49</td>
+    <td class="tg-ufe5">50</td>
+    <td class="tg-ufe5">51</td>
+    <td class="tg-ufe5">52</td>
+    <td class="tg-ufe5">53</td>
+    <td class="tg-ufe5">54</td>
+  </tr>
+</table>
+
 Key         1  	2	  3  	4  	5 	6  	7
 Data(char)	“1”	“2”	“3”	“4”	“5”	“6”	“7”
 Data(int )	48	49	50	51	52	53	54
