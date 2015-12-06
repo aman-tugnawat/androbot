@@ -72,7 +72,7 @@ About the App Documentation can be found at this link:
 https://goo.gl/ir4sok
 
 Sample Arduino Source Code can be downloaded from this link:
-http://goo.gl/WpakUp
+https://goo.gl/NK6fP1
 
 I will be adding adding further functionality based on user reviews like accelerometer,GPS , PWM ,Serial terminal etc so if you have any specific need please do write an review.
 
