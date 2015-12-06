@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroBot</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_help">Help</string>
+    <string name="app_description">This app allows you to control any Robot or Embedded Sys. interfaced via bluetooth using Serial Port Profile(SPP).\nThis is a simple app for beginners learning to use Arduino/Any Development using Serial communication and control their project from their Android Smartphone/Tablet.\n\nI will be adding adding further functionality based on user reviews like accelerometer,GPS, PWM etc so if you have any specific need please do write an review.\n\nSample Arduino Source Code can be downloaded from this link:\n<b><u>http://goo.gl/WpakUp</u></b>\n\nPlease rate the app 5 stars if you find my work helpful.\nIn case you have any issues with app please write a review or mail me regarding it before giving low rating.
+    </string>
+
+</resources>

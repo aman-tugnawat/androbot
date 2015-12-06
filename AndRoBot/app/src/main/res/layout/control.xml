@@ -1,0 +1,219 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg2"
+    android:paddingBottom="26dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Control" >
+
+    <ImageButton
+        android:id="@+id/ib2"
+        android:hapticFeedbackEnabled="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/ib3"
+        android:src="@drawable/down" />
+
+    <ImageButton
+        android:id="@+id/ib4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ib2"
+        android:layout_toLeftOf="@+id/ib2"
+        android:src="@drawable/left"
+        android:hapticFeedbackEnabled="true"/>
+
+    <ImageButton
+        android:id="@+id/ib1"
+        android:hapticFeedbackEnabled="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ib4"
+        android:layout_toRightOf="@+id/ib4"
+        android:src="@drawable/up" />
+
+
+    <Button
+        android:id="@+id/bhit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hapticFeedbackEnabled="true"
+        android:layout_alignRight="@+id/ib6"
+        android:layout_alignEnd="@+id/ib6" />
+
+    <ImageButton
+        android:id="@+id/ib3"
+        android:hapticFeedbackEnabled="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ib2"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/right" />
+
+    <ImageButton
+        android:id="@+id/ib5"
+        android:hapticFeedbackEnabled="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/right_rotate"
+        android:layout_alignTop="@+id/info2"
+        android:layout_alignLeft="@+id/connection"
+        android:layout_alignStart="@+id/connection" />
+
+    <ImageButton
+        android:id="@+id/ib6"
+        android:hapticFeedbackEnabled="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/left_rotate"
+        android:layout_alignTop="@+id/ib5"
+        android:layout_toRightOf="@+id/ib5"
+        android:layout_toEndOf="@+id/ib5" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity"
+        android:id="@+id/connection">
+
+        <Button
+            android:id="@+id/disconnect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Disconnect"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:visibility="invisible"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="No Device Selected."
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@+id/disconnect"
+            android:layout_toEndOf="@+id/disconnect" />
+
+        <TextView
+            android:id="@+id/tv"
+            android:visibility="invisible"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:hint="You are not connected."
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_below="@+id/tv1"
+            android:layout_toRightOf="@+id/disconnect"
+            android:layout_toEndOf="@+id/disconnect" />
+
+        <CheckBox
+            android:id="@+id/buttonValues"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Show button values"
+            android:visibility="invisible"
+            android:layout_below="@+id/disconnect"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/info1"
+        android:background="@color/transparent"
+        android:src="@drawable/ic_rightinfo"
+        android:layout_alignBottom="@+id/ib1"
+        android:layout_alignRight="@+id/ib4"
+        android:layout_alignEnd="@+id/ib4"
+        android:layout_alignTop="@+id/ib1" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+
+        android:id="@+id/info2"
+        android:background="@color/transparent"
+        android:src="@drawable/ic_rightinfo"
+        android:layout_alignBottom="@+id/ib4"
+        android:layout_toLeftOf="@+id/ib4"
+        android:layout_toStartOf="@+id/ib4"
+        android:layout_alignTop="@+id/info3" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+
+        android:id="@+id/info3"
+        android:background="@color/transparent"
+        android:src="@drawable/ic_rightinfo"
+        android:layout_above="@+id/ib2"
+        android:layout_toLeftOf="@+id/ib3"
+        android:layout_toStartOf="@+id/ib3"
+        android:layout_alignTop="@+id/ib3" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+
+        android:id="@+id/info4"
+        android:background="@color/transparent"
+        android:src="@drawable/ic_rightinfo"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/ib4"
+        android:layout_alignEnd="@+id/ib4"
+        android:layout_alignTop="@+id/ib2" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+
+        android:id="@+id/info5"
+        android:background="@color/transparent"
+        android:src="@drawable/ic_infodown"
+        android:layout_above="@+id/ib6"
+        android:layout_alignLeft="@+id/ib6"
+        android:layout_alignStart="@+id/ib6"
+        android:layout_alignRight="@+id/ib6"
+        android:layout_alignEnd="@+id/ib6" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+
+        android:id="@+id/info6"
+        android:background="@color/transparent"
+        android:src="@drawable/ic_infodown"
+        android:layout_alignTop="@+id/info5"
+        android:layout_toLeftOf="@+id/info5"
+        android:layout_alignLeft="@+id/ib5"
+        android:layout_alignStart="@+id/ib5" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+
+        android:id="@+id/info7"
+        android:background="@color/transparent"
+        android:src="@drawable/ic_infoleft"
+        android:layout_alignTop="@+id/bhit"
+        android:layout_toRightOf="@+id/bhit"
+        android:layout_toEndOf="@+id/bhit" />
+
+</RelativeLayout>

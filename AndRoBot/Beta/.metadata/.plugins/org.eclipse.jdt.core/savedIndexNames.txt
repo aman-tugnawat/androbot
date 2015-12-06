@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+C:\Users\Aman Tugnawat\AndroBot\AndRoBot\Beta\.metadata\.plugins\org.eclipse.jdt.core
+1139679601.index
+4116099227.index
+2417490570.index

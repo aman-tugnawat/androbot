@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!--<item name="android:windowBackground">@color/background_window</item>
+         ...and here we setting appcompat’s color theming attrs
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryDark">@color/greenDark</item>
+        <item name="colorAccent">@color/banana</item>
+        <item name="android:textColorPrimary">@android:color/white</item>-->
+
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/blue</item>
+        <item name="colorAccent">@color/blue</item>
+
+        <item name="android:windowBackground">@color/myWindowBackground</item>
+
+
+    </style>
+    <!-- Styles -->
+    <!-- ActionBar styles -->
+
+    <style name="GalaxyZooThemeToolbarDarkOverflow" parent="Theme.AppCompat.Light">
+
+    <item name="android:textColorPrimary">@android:color/white</item>
+    <item name="colorPrimary">@color/blue</item>
+    <item name="colorPrimaryDark">@color/blue</item>
+    <item name="colorAccent">@color/blue</item>
+    <item name="actionOverflowButtonStyle">@style/OverflowMenuButton</item>
+
+
+
+        <item name="android:windowBackground">@color/myWindowBackground</item>
+    </style>
+    <style name="OverflowMenuButton" parent="Theme.AppCompat.Light.DarkActionBar">
+       <!-- <item name="android:src">@drawable/ic_overflow</item>-->
+    </style>
+
+
+</resources>
