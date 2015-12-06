@@ -69,7 +69,7 @@ if(read==48){
 }
 
 About the App Documentation can be found at this link:
-http://goo.gl/gPr1CE
+https://goo.gl/ir4sok
 
 Sample Arduino Source Code can be downloaded from this link:
 http://goo.gl/WpakUp
