@@ -1,5 +1,6 @@
-# androbot
+# Androbot
 An android app which allows you to control any Robot or Embedded Sys. interfaced bluetooth using Serial Port Profile(SPP).
+Download from playstore https://play.google.com/store/apps/details?id=com.at.androbot
 
 This is a simple app for beginners learning to use Arduino/Any Development using Serial communication and control their project from their Android Smartphone/Tablet.
 Understanding how the app sends data:
