@@ -58,7 +58,7 @@ Data(char)	“1”	“2”	“3”	“4”	“5”	“6”	“7”
 Data(int )	48	49	50	51	52	53	54
 Data(byte)	48	49	50	51	52	53	54
 
-The key/button no. can be seen in image shown on top i.e. the promo image.
+
 For example:
 If the key 1 is pressed on the screen. The data send would be single char i.e.“1” which could be type casted and used to establish control over Arduino as follows:
 
