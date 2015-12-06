@@ -10,14 +10,6 @@ The app uses separate Thread with a loop to send data continuously after every 1
 
 Which key/button would send will send which byte can be seen in the table:
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#999;border:none;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#999;color:#444;background-color:#F7FDFA;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#999;color:#fff;background-color:#26ADE4;}
-.tg .tg-2dkq{background-color:#3166ff;color:#ffffff;vertical-align:top}
-.tg .tg-ufe5{background-color:#34cdf9;vertical-align:top}
-.tg .tg-to9j{font-family:Georgia, serif !important;;background-color:#3166ff;color:#ffffff;vertical-align:top}
-</style>
 <table class="tg">
   <tr>
     <th class="tg-2dkq">Key</th>
