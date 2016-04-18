@@ -35,6 +35,12 @@
             android:screenOrientation="landscape"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
+            android:name=".NewControl"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="Control Your Bot"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
             android:name=".About"
             android:configChanges="orientation|keyboardHidden"
             android:label="About The Developer"

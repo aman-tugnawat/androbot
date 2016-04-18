@@ -135,7 +135,7 @@ public class MainActivity extends ActionBarActivity {
                 // OnClick Connect button
                 if (!mDebugMode.isChecked()) {
                     if ((mBluetoothService.getState() == BluetoothService.STATE_CONNECTED)) {
-                        Intent controlActivity = new Intent(getBaseContext(), Control.class);
+                        Intent controlActivity = new Intent(getBaseContext(), NewControl.class);
                         startActivity(controlActivity);
                     } else {
                         Toast.makeText(
@@ -144,7 +144,7 @@ public class MainActivity extends ActionBarActivity {
                                 Toast.LENGTH_LONG).show();
                     }
                 } else {
-                    Intent controlActivity = new Intent(getBaseContext(), Control.class);
+                    Intent controlActivity = new Intent(getBaseContext(), NewControl.class);
                     startActivity(controlActivity);
                 }
 
