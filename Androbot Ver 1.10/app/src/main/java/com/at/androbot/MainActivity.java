@@ -25,6 +25,13 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+/**
+ * <h1>MainActivity</h1>
+ * This is the main activity for the app which has the Bluetooth handler and the listView for the Serial terminal over bluetooth.
+ *
+ * @author AmanTugnawat
+ * @since 12-10-2014
+ */
 
 public class MainActivity extends ActionBarActivity {
 
@@ -65,7 +72,7 @@ public class MainActivity extends ActionBarActivity {
     static TextView tv1, tv2;
     Button mConnectButton,mControlButton,mConsoleButton;
     CheckBox mDebugMode;
-    Thread mDataLoop;
+    //Thread mDataLoop;
     BluetoothAdapter mBluetoothAdapter;
     static BluetoothService mBluetoothService;
     private Toolbar mToolbar;
